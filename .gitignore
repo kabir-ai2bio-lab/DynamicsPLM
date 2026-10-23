@@ -1,0 +1,24 @@
+# Downloaded data
+dataset/*
+!dataset/.gitkeep
+
+# Training / evaluation outputs (weights released on Zenodo)
+save_dir/*
+!save_dir/checkpoints/
+save_dir/checkpoints/*
+!save_dir/checkpoints/.gitkeep
+
+# External baseline code (git clone https://github.com/ShenLab/SeqDance evaluation/SeqDance)
+evaluation/SeqDance/
+
+# Logs
+logs/*
+!logs/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
